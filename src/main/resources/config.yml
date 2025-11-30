@@ -1,0 +1,8 @@
+#MemoryGame 設定ファイル
+
+#ゲームの制限時間
+gameLimit: 30
+#ブロックの間隔
+blockSpace: 2
+#ランキング表示件数
+top: 3
