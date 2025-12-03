@@ -12,7 +12,12 @@ Java学習の一環として、実際に動くものの開発を通して技術�
 ---
  
 ### 🎥 プレイ画面  
-to be continued....
+
+![start](https://github.com/user-attachments/assets/3de61937-36f0-48eb-b45c-8e5d23fd26cd)  
+
+![play](https://github.com/user-attachments/assets/1fef7716-b60f-458d-af3b-11c94c683b5d)  
+
+![rank](https://github.com/user-attachments/assets/0dde3ec2-7ab0-4418-9298-a884119fce21)
 
 ---
 
