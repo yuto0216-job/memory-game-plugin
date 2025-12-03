@@ -20,12 +20,17 @@ to be continued....
 （※はconfig.ymlから変更できる要素です）
 
 技術構成
-言語: Java 21
-API: Spigot API 1.21
-OR Mapper: Mybatis ver 3.5.19
-DB: MySQL ver 8.0
-ビルドツール: Gradle
-Minecraft ver 1.21
+言語: 
+　Java 21
+API: 
+　Spigot API 1.21
+OR Mapper: 
+　Mybatis ver 3.5.19
+DB: 
+　MySQL ver 8.0
+ビルドツール:
+　Gradle
+ 
 
 導入方法
 1.JARファイルを/pluginsフォルダへ配置
