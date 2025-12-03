@@ -25,8 +25,9 @@ API: Spigot API 1.21　
 OR Mapper: Mybatis ver 3.5.19　
 DB: MySQL ver 8.0　
 ビルドツール: Gradle　
- 
 
+------------------------------------------------------------------------------------
+ 
 導入方法
 1.JARファイルを/pluginsフォルダへ配置
 2.MySQLでplayer_score テーブルを作成
