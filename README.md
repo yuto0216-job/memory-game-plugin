@@ -21,15 +21,15 @@ to be continued....
 
 技術構成
 言語: 
-　Java 21
+Java 21　
 API: 
-　Spigot API 1.21
+Spigot API 1.21　
 OR Mapper: 
-　Mybatis ver 3.5.19
+Mybatis ver 3.5.19　
 DB: 
-　MySQL ver 8.0
+MySQL ver 8.0　
 ビルドツール:
-　Gradle
+Gradle　
  
 
 導入方法
