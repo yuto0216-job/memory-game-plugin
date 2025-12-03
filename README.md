@@ -61,7 +61,7 @@ CREATE TABLE player_score (
 );
 ```
 
-3. サーバーを起動
+3. サーバーを起動し、生成された config.yml にDB情報を記述
 
 ---
 
