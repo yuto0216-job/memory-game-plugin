@@ -14,10 +14,13 @@ Java学習の一環として、実際に動くものの開発を通して技術�
 ### 🎥 プレイ画面  
 
 ![start](https://github.com/user-attachments/assets/3de61937-36f0-48eb-b45c-8e5d23fd26cd)  
+ゲーム開始画面
 
 ![play](https://github.com/user-attachments/assets/1fef7716-b60f-458d-af3b-11c94c683b5d)  
+プレイ中の様子
 
-![rank](https://github.com/user-attachments/assets/0dde3ec2-7ab0-4418-9298-a884119fce21)
+![rank](https://github.com/user-attachments/assets/0dde3ec2-7ab0-4418-9298-a884119fce21)  
+スコアランキング表示
 
 ---
 
@@ -74,9 +77,9 @@ CREATE TABLE player_score (
 
 - 保守性・拡張性を意識し、役割ごとにクラスを分けました。(command/service/repository等)
 
-- 例外処理　ブロック破壊、ゲーム中のログアウト、二重起動 各ケースに対して明示的な処理を実装しました。
+- 例外処理: ブロック破壊、ゲーム中のログアウト、二重起動 各ケースに対して明示的な処理を実装しました。
 
-- マルチプレイの対応　プレイヤーごとに`ExecutigPlayer`インスタンスを生成し、メモリ上で管理しました。個々の進行状況を持たせることでデータが競合せずにゲームが進行するようになっています。
+- マルチプレイの対応: プレイヤーごとに`ExecutingPlayer`インスタンスを生成し、メモリ上で管理しました。個々の進行状況を持たせることでデータが競合せずにゲームが進行するようになっています。
 
-- 設定の外部化　DB接続情報、制限時間やコマンド`/memorygame rank`による表示数、ブロックの間隔などはコードに埋め込まず、`config.yml`から読み込む仕様にしました。
+- 設定の外部化: DB接続情報、制限時間やコマンド`/memorygame rank`による表示数、ブロックの間隔などはコードに埋め込まず、`config.yml`から読み込む仕様にしました。
 
