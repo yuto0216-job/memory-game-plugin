@@ -19,17 +19,12 @@ to be continued....
 演出: 正解時や終了時に演出が発生します
 （※はconfig.ymlから変更できる要素です）
 
-技術構成
-言語: 
-Java 21　
-API: 
-Spigot API 1.21　
-OR Mapper: 
-Mybatis ver 3.5.19　
-DB: 
-MySQL ver 8.0　
-ビルドツール:
-Gradle　
+技術構成　
+言語: Java 21　
+API: Spigot API 1.21　
+OR Mapper: Mybatis ver 3.5.19　
+DB: MySQL ver 8.0　
+ビルドツール: Gradle　
  
 
 導入方法
