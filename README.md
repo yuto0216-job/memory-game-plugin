@@ -14,7 +14,7 @@ Java学習の一環として、実際に動くものの開発を通して技術�
 ### 🎥 プレイ画面  
 
 ![start](https://github.com/user-attachments/assets/3de61937-36f0-48eb-b45c-8e5d23fd26cd)  
-ゲーム開始画面
+ゲーム開始
 
 ![play](https://github.com/user-attachments/assets/1fef7716-b60f-458d-af3b-11c94c683b5d)  
 プレイ中の様子
