@@ -75,7 +75,7 @@ CREATE TABLE player_score (
 
 ### 💡 設計・意識した点
 
-- 保守性・拡張性を意識し、役割ごとにクラスを分けました。(command/service/repository等)
+- 保守性、拡張性を意識し、役割ごとにクラスを分けました。(command/service/repository等)
 
 - 例外処理: ブロック破壊、ゲーム中のログアウト、二重起動 各ケースに対して明示的な処理を実装しました。
 
